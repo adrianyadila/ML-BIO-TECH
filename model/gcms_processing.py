@@ -48,7 +48,7 @@ import pandas as pd
 # MES distribution (printed by build_gcms_targets) and choose the
 # threshold from the quantiles / class balance you want.
 
-STUDY_QUANTILE = 0.40
+STUDY_QUANTILE = 0.60
 
 RE_BIOSAMPLE = re.compile(r"(nmdc_bsm-\d+-[a-z0-9]+)", re.IGNORECASE)
 
